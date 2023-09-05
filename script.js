@@ -48,11 +48,11 @@ class MemoryWidget {
                   }
                 });
               }
-            }, 1000);
+            }, 10000);
           };
 
           image.src = imagePath;
-        }, 1000 * index);
+        }, 10000 * index);
       });
 
       answerElement.remove();
